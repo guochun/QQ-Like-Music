@@ -1,0 +1,29 @@
+.mod_header {
+    background: $header-background;
+    height: $header-height;
+    position: relative;
+    .music_logo {
+        width: 90px;
+        height: 25px;
+        float: left;
+        background-image: url(../images/logo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        display: block;
+        margin: 9px 0 0 10px;
+    }
+    .btn_download {
+        color: #fff;
+        background: #149c5a;
+        font-size: 14px;
+        display: inline-block;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 12px;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        border-radius: 99px;
+    }
+}

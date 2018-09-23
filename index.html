@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0,maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>QQ-Like Music</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 </head>
+
 <body>
-    
+    <div class="wrap">
+        <header class="mod_header">
+            <i class="music_logo">QQ音乐</i>
+            <span class="btn_download">下载APP</span>
+        </header>
+        <nav class="mod_nav">
+            <a href="javascript:;" class="current">推荐</a>
+            <a href="javascript:;">排行榜</a>
+            <a href="javascript:;">搜索</a>
+        </nav>
+        <div id="content_wrapper">
+            <div id="recom_wrap">
+                <div id="slider" class="ui-slider">
+                    <p class="ui-slider-dots">
+                        <b></b>
+                        <b></b>
+                        <b></b>
+                        <b></b>
+                        <b></b>
+                    </p>
+                </div>
+            </div>
+            <div id="toplist_wrap" style="display: none;"></div>
+            <div id="search_wrap" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="./scripts/slider.js"></script>
+    <script src="./scripts/app.js"></script>
 </body>
+
 </html>

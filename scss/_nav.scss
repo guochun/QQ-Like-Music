@@ -1,0 +1,28 @@
+.mod_nav {
+    display: flex;
+    background: #fff;
+    a {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        flex: 1;
+        text-align: center;
+        font-size: 16px;
+        color:rgba(0,0,0,.6);
+        position: relative;
+        // overflow: hidden;
+    }
+    .current {
+        color: #31c27c;
+    }
+    a.current::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #31c27c;
+    }
+}
